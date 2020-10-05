@@ -1,6 +1,5 @@
 FROM    docker:stable-dind
 LABEL   name=${NAME}
-LABEL   version=${VERSION}
 
 ARG     NAME
 ARG     VERSION
